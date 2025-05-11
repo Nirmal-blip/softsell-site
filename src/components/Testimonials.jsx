@@ -46,7 +46,7 @@ export default function TestimonialsAndContact() {
     <section id="contact" className="relative text-white py-24 px-6 overflow-hidden">
       {/* Background Video */}
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="absolute top-0 left-0 w-full h-full object-cover brightness-[150%] z-0 dark:brightness-[80%]"
         src={BackgroundVideo}
         autoPlay
         loop

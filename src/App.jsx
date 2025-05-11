@@ -3,10 +3,12 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import'./index.css'
 import Hero from './components/Hero'
-
+import ChatWidget from './components/ChatWidget'
 import HowItWorks from './components/HowItWorks'
 import ThemeToggle from './components/ThemeToggle'
 import Testimonials from './components/Testimonials'
+import Navbar from './components/Navbar';
+
 // Import the Toaster component and toast from react-hot-toast
 import { Toaster, toast } from 'react-hot-toast'
 
@@ -37,12 +39,15 @@ function App() {
         secondary: '#fee2e2',
       },
     }, }} />
+    <Navbar />
       <Hero />
       <HowItWorks />
       <Testimonials />
-     
+       
       <Footer />
       <ThemeToggle /> {/* ✅ Light/Dark Mode Button */}
+       <ChatWidget />
+    
     
     </div>
   )

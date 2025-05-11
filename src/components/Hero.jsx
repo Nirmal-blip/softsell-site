@@ -23,7 +23,7 @@ export default function Hero() {
     <div className="relative min-h-screen overflow-hidden font-sans">
       {/* Background Video */}
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="absolute top-0 left-0 w-full h-full  brightness-[150%] object-cover z-0 dark:brightness-[80%]"
         src={BackgroundVideo}
         autoPlay
         loop

@@ -35,7 +35,7 @@ export default function HowItWorksAndWhyChooseUs() {
     <section id="how-it-works" className="relative overflow-hidden text-white">
       {/* Background Video */}
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="absolute top-0 left-0 w-full h-full  brightness-[150%] object-cover z-0 dark:brightness-[80%]"
         src={BackgroundVideo}
         autoPlay
         loop
