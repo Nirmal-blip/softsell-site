@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import'./index.css'
 import Hero from './components/Hero'
-import ChatWidget from './components/ChatWidget';
+
 import HowItWorks from './components/HowItWorks'
 import ThemeToggle from './components/ThemeToggle'
 import Testimonials from './components/Testimonials'
@@ -43,7 +43,7 @@ function App() {
      
       <Footer />
       <ThemeToggle /> {/* ✅ Light/Dark Mode Button */}
-      <ChatWidget /> {/* ✅ Chat Widget */}
+    
     </div>
   )
 }
