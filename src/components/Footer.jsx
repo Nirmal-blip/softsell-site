@@ -16,19 +16,37 @@ export default function Footer() {
 
       {/* Social Icons */}
       <div className="flex justify-center space-x-6 mb-6 z-10 relative">
-        <FaFacebookF className="text-white text-xl hover:text-blue-300 cursor-pointer" />
-        <FaTwitter className="text-white text-xl hover:text-blue-300 cursor-pointer" />
-        <FaLinkedinIn className="text-white text-xl hover:text-blue-300 cursor-pointer" />
-        <FaInstagram className="text-white text-xl hover:text-blue-300 cursor-pointer" />
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <FaFacebookF className="text-white text-xl hover:text-blue-300 cursor-pointer" />
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <FaTwitter className="text-white text-xl hover:text-blue-300 cursor-pointer" />
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <FaLinkedinIn className="text-white text-xl hover:text-blue-300 cursor-pointer" />
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <FaInstagram className="text-white text-xl hover:text-blue-300 cursor-pointer" />
+        </a>
       </div>
 
       {/* Navigation Links */}
       <ul className="flex justify-center space-x-8 mb-4 text-sm font-medium text-blue-100">
-        <li className="hover:text-white cursor-pointer">Home</li>
-        <li className="hover:text-white cursor-pointer">About</li>
-        <li className="hover:text-white cursor-pointer">Services</li>
-        <li className="hover:text-white cursor-pointer">Team</li>
-        <li className="hover:text-white cursor-pointer">Contact</li>
+        <li>
+          <a href="#" className="hover:text-white cursor-pointer">Home</a>
+        </li>
+        <li>
+          <a href="#" className="hover:text-white cursor-pointer">About</a>
+        </li>
+        <li>
+          <a href="#how-it-works" className="hover:text-white cursor-pointer">Services</a>
+        </li>
+        <li>
+          <a href="#team" className="hover:text-white cursor-pointer">Team</a>
+        </li>
+        <li>
+          <a href="#contact" className="hover:text-white cursor-pointer">Contact</a>
+        </li>
       </ul>
 
       {/* Footer Bottom */}
